@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C8148D9F99A45A58FB05D75 /* libPods-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78571D4FA9C943A582DEB144 /* libPods-test.a */; };
 		CE97F9F7160BE2D200A5B414 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE97F9F6160BE2D200A5B414 /* UIKit.framework */; };
 		CE97F9F9160BE2D200A5B414 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE97F9F8160BE2D200A5B414 /* Foundation.framework */; };
 		CE97F9FB160BE2D200A5B414 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE97F9FA160BE2D200A5B414 /* CoreGraphics.framework */; };
@@ -22,7 +23,9 @@
 		CE97FA1C160BE2D300A5B414 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE97F9F6160BE2D200A5B414 /* UIKit.framework */; };
 		CE97FA1D160BE2D300A5B414 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE97F9F8160BE2D200A5B414 /* Foundation.framework */; };
 		CE97FA25160BE2D300A5B414 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE97FA23160BE2D300A5B414 /* InfoPlist.strings */; };
-		CE97FA28160BE2D300A5B414 /* TipCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE97FA27160BE2D300A5B414 /* TipCalcTests.m */; };
+		CE97FA3E160BE50E00A5B414 /* CalculatorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = CE97FA3D160BE50E00A5B414 /* CalculatorSpec.m */; };
+		CE97FA41160BE5DC00A5B414 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = CE97FA40160BE5DC00A5B414 /* Calculator.m */; };
+		CE97FA42160BE5DC00A5B414 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = CE97FA40160BE5DC00A5B414 /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		78571D4FA9C943A582DEB144 /* libPods-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F335D506C9843E5B09DDEEC /* Pods-test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.xcconfig"; path = "Pods/Pods-test.xcconfig"; sourceTree = SOURCE_ROOT; };
 		CE97F9F2160BE2D200A5B414 /* TipCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE97F9F6160BE2D200A5B414 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		CE97F9F8160BE2D200A5B414 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE97F9F6160BE2D200A5B414 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE97F9F8160BE2D200A5B414 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE97F9FA160BE2D200A5B414 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		CE97F9FE160BE2D200A5B414 /* TipCalc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TipCalc-Info.plist"; sourceTree = "<group>"; };
 		CE97FA00160BE2D200A5B414 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -53,11 +58,12 @@
 		CE97FA11160BE2D200A5B414 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CE97FA12160BE2D200A5B414 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CE97FA19160BE2D300A5B414 /* TipCalcTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalcTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE97FA1A160BE2D300A5B414 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CE97FA1A160BE2D300A5B414 /* SenTestingKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		CE97FA22160BE2D300A5B414 /* TipCalcTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TipCalcTests-Info.plist"; sourceTree = "<group>"; };
 		CE97FA24160BE2D300A5B414 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CE97FA26160BE2D300A5B414 /* TipCalcTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TipCalcTests.h; sourceTree = "<group>"; };
-		CE97FA27160BE2D300A5B414 /* TipCalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipCalcTests.m; sourceTree = "<group>"; };
+		CE97FA3D160BE50E00A5B414 /* CalculatorSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorSpec.m; sourceTree = "<group>"; };
+		CE97FA3F160BE5DC00A5B414 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Calculator.h; path = TipCalc/Calculator.h; sourceTree = SOURCE_ROOT; };
+		CE97FA40160BE5DC00A5B414 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Calculator.m; path = TipCalc/Calculator.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,7 @@
 				CE97FA1B160BE2D300A5B414 /* SenTestingKit.framework in Frameworks */,
 				CE97FA1C160BE2D300A5B414 /* UIKit.framework in Frameworks */,
 				CE97FA1D160BE2D300A5B414 /* Foundation.framework in Frameworks */,
+				1C8148D9F99A45A58FB05D75 /* libPods-test.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +98,7 @@
 				CE97FA20160BE2D300A5B414 /* TipCalcTests */,
 				CE97F9F5160BE2D200A5B414 /* Frameworks */,
 				CE97F9F3160BE2D200A5B414 /* Products */,
+				9F335D506C9843E5B09DDEEC /* Pods-test.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +118,7 @@
 				CE97F9F8160BE2D200A5B414 /* Foundation.framework */,
 				CE97F9FA160BE2D200A5B414 /* CoreGraphics.framework */,
 				CE97FA1A160BE2D300A5B414 /* SenTestingKit.framework */,
+				78571D4FA9C943A582DEB144 /* libPods-test.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,6 +126,8 @@
 		CE97F9FC160BE2D200A5B414 /* TipCalc */ = {
 			isa = PBXGroup;
 			children = (
+				CE97FA3F160BE5DC00A5B414 /* Calculator.h */,
+				CE97FA40160BE5DC00A5B414 /* Calculator.m */,
 				CE97FA05160BE2D200A5B414 /* AppDelegate.h */,
 				CE97FA06160BE2D200A5B414 /* AppDelegate.m */,
 				CE97FA0E160BE2D200A5B414 /* MainStoryboard.storyboard */,
@@ -144,9 +155,8 @@
 		CE97FA20160BE2D300A5B414 /* TipCalcTests */ = {
 			isa = PBXGroup;
 			children = (
-				CE97FA26160BE2D300A5B414 /* TipCalcTests.h */,
-				CE97FA27160BE2D300A5B414 /* TipCalcTests.m */,
 				CE97FA21160BE2D300A5B414 /* Supporting Files */,
+				CE97FA3D160BE50E00A5B414 /* CalculatorSpec.m */,
 			);
 			path = TipCalcTests;
 			sourceTree = "<group>";
@@ -188,6 +198,7 @@
 				CE97FA15160BE2D300A5B414 /* Frameworks */,
 				CE97FA16160BE2D300A5B414 /* Resources */,
 				CE97FA17160BE2D300A5B414 /* ShellScript */,
+				70BD1BDB19F746179B826372 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +261,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		70BD1BDB19F746179B826372 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-test-resources.sh\"\n";
+		};
 		CE97FA17160BE2D300A5B414 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -273,6 +298,7 @@
 				CE97FA03160BE2D200A5B414 /* main.m in Sources */,
 				CE97FA07160BE2D200A5B414 /* AppDelegate.m in Sources */,
 				CE97FA13160BE2D200A5B414 /* ViewController.m in Sources */,
+				CE97FA41160BE5DC00A5B414 /* Calculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +306,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE97FA28160BE2D300A5B414 /* TipCalcTests.m in Sources */,
+				CE97FA3E160BE50E00A5B414 /* CalculatorSpec.m in Sources */,
+				CE97FA42160BE5DC00A5B414 /* Calculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,9 +422,11 @@
 		};
 		CE97FA2F160BE2D300A5B414 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F335D506C9843E5B09DDEEC /* Pods-test.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TipCalc.app/TipCalc";
 				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
@@ -412,9 +441,11 @@
 		};
 		CE97FA30160BE2D300A5B414 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F335D506C9843E5B09DDEEC /* Pods-test.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TipCalc.app/TipCalc";
 				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
@@ -446,6 +477,7 @@
 				CE97FA2D160BE2D300A5B414 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE97FA2E160BE2D300A5B414 /* Build configuration list for PBXNativeTarget "TipCalcTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +486,7 @@
 				CE97FA30160BE2D300A5B414 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
